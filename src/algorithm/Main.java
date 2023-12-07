@@ -1,3 +1,9 @@
+
+
+/*
+ * Copyright (c) 2023. Rumba z nożem
+ */
+
 package algorithm;
 
 
