@@ -22,9 +22,9 @@ public class Main {
         for(int i = 0; i < groszamount.length; i++){
             if(amountMoneyArray[i] != 0){
                 if (groszamount[i] % 100 == 0){
-                    System.out.println("{ "+groszamount[i]/100+" zl}" +" - " + amountMoneyArray[i]+" sztuk");
+                    System.out.println("{"+groszamount[i]/100+" zl}" +" - " + amountMoneyArray[i]+" sztuk");
                 }
-                else System.out.println("{ "+groszamount[i]+" gr}" +" - " + amountMoneyArray[i]+" sztuk");
+                else System.out.println("{"+groszamount[i]+" gr}" +" - " + amountMoneyArray[i]+" sztuk");
             }
         }
     }
